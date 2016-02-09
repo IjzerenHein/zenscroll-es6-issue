@@ -1,0 +1,28 @@
+{
+  "name": "zenscroll-es6-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack -p",
+    "lint": "eslint src/**/*.js"
+  },
+  "author": "IjzerenHein",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "eslint-plugin-react": "^3.16.1",
+    "file-loader": "^0.8.5",
+    "less": "^2.6.0",
+    "less-loader": "^2.2.2",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.13"
+  }
+}

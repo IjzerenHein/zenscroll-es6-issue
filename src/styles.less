@@ -1,0 +1,86 @@
+@purple: #94657E;
+@green: #4C9070;
+@orange: #DC6950;
+@neutral: #ececeb;
+
+body, div {
+	font-family: "Open Sans", "Helvetica Neue", "Arial";
+	font-weight: 400;
+}
+
+.questionary {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.item {
+	text-align: center;
+	border: 1px solid #F8F8F8;
+}
+
+.statement {
+	margin: 2vh 10px;
+	color: #4c4c4c;
+}
+
+.option-group {
+	margin-bottom: 2vh;
+}
+
+.option {
+	display: inline-block;
+	border-width: 4px;
+	border-style: solid;
+	border-radius: 50%;
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+	&.large {
+		width: 3vh;
+		height: 3vh;
+	}
+	&.medium {
+		width: 2vh;
+		height: 2vh;
+	}
+	&.small {
+		width: 1vh;
+		height: 1vh;
+	}
+	&.green {
+		border-color: @green;
+		&:hover {
+			background-color: @green;
+		}
+	}
+	&.purple {
+		border-color: @purple;
+		&:hover {
+			background-color: @purple;
+		}
+	}
+	&.neutral {
+		border-color: @neutral;
+		&:hover {
+			background-color: @neutral;
+		}
+	}
+}
+
+.btn {
+	display: inline-block;
+	margin-top: 3vh;
+	margin-left: 3vh;
+	margin-right: 3vh;
+	background-color: @orange;
+	color: white;
+	padding: 3vh;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 3vh;
+	cursor: pointer;
+	&:hover {
+		background-color: darken(@orange, 20%);
+	}
+}
