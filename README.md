@@ -1,6 +1,6 @@
 ## Demo
 
-[View the demo here](./www/index.html)
+[View the demo here](https://rawgit.com/IjzerenHein/zenscroll-es6-issue/master/www/index.html)
 
 
 ## Build instructions
