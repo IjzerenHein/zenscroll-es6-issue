@@ -1,3 +1,10 @@
+## Demo
+
+[View the demo here](./www/index.html)
+
+
+## Build instructions
+
 Make sure babel, webpack and webpack-dev-server are installed globally:
 
 	npm install -g babel webpack webpack-dev-server
