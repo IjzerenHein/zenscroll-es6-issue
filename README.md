@@ -1,6 +1,6 @@
-Make sure webpack and webpack-dev-server are installed globally:
+Make sure babel, webpack and webpack-dev-server are installed globally:
 
-	npm install -g webpack webpack-dev-server
+	npm install -g babel webpack webpack-dev-server
 
 Install npm dependencies:
 
